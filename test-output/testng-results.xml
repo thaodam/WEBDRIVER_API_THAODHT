@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20118" started-at="2019-02-20T16:44:58Z" finished-at="2019-02-20T16:45:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20118" started-at="2019-02-20T16:44:58Z" finished-at="2019-02-20T16:45:18Z">
+      <class name="thaodam.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:thaodam.NewTest@6574b225]" name="beforeTest" is-config="true" duration-ms="18767" started-at="2019-02-20T23:44:58Z" finished-at="2019-02-20T23:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC_01_CheckTitle()[pri:0, instance:thaodam.NewTest@6574b225]" name="TC_01_CheckTitle" duration-ms="50" started-at="2019-02-20T23:45:17Z" finished-at="2019-02-20T23:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_CheckTitle -->
+        <test-method status="PASS" signature="TC_01_CheckUrl()[pri:0, instance:thaodam.NewTest@6574b225]" name="TC_01_CheckUrl" duration-ms="20" started-at="2019-02-20T23:45:17Z" finished-at="2019-02-20T23:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_CheckUrl -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:thaodam.NewTest@6574b225]" name="afterTest" is-config="true" duration-ms="1177" started-at="2019-02-20T23:45:17Z" finished-at="2019-02-20T23:45:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- thaodam.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
