@@ -39,7 +39,7 @@ public class Topic_07_iframe_popup {
 			driver.switchTo().frame(notificationIframe.get(0));
 			Assert.assertTrue(driver.findElement(By.xpath("//div[@id='container-div']/img")).isDisplayed());
 			
-			javascript.executeScript("argurments[0].click()", driver.findElement(By.xpath("//div[@id='div-close']")));
+			javascript.executeScript("arguments[0].click()", driver.findElement(By.xpath("//div[@id='div-close']")));
 			
 			driver.switchTo().defaultContent();
 			
